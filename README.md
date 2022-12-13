@@ -1,1 +1,1 @@
-# Miniproject-D7041E
+# Miniproject-D7041E Chess Evaluation
