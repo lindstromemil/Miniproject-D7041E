@@ -15,6 +15,8 @@ The two classic examples of these two methods are AlphaZero and Stockfish. Alpha
 ## Setup
 To setup and run our current version you simply have to open our colab [link](https://colab.research.google.com/drive/1RdAev0m0uGv2cMtb-ASv9GjOccsPohe0?usp=sharing) and run all the cells.
 
+The current setting is that the model uses 100000 boards to train. Our results are based on using 27164639 boards instead but this takes a few hours to compile. You can change the variable `LABEL_COUNT` to choose freely how many boards you want to analyze.
+
 Sidenote: Install gui with chess engines :)
 
 ## Dataset
