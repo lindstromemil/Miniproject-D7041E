@@ -22,6 +22,8 @@ The dataset used is a collection of all games played on [Lichess](https://liches
 
 
 ## Model
+
+### Own model
 Our model consists of the game state and trying to determine who is in the lead requires some factors. The evaluation score (eval) is a way to show who is in the lead. If the eval is positive then it means that white is in the lead and negative means black is in the lead. The first factor is simple, if you take a piece from the other player you increase your evaluation score. Depending on what piece you take it increases the score differently. A pawn is worth 1 point, a knight is 3 points etc.
 
 But just because one side has taken more pieces than the other it does not necessarily mean that they are winning. The second factor is how the pieces are positioned, if a side has a more favourable position it means that their score will increase. The final factor is the number of future moves available which also impacts the score. 
