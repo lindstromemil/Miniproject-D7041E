@@ -13,7 +13,7 @@ The two classic examples of these two methods are AlphaZero and Stockfish. Alpha
 
 
 ## Setup
-To setup and run our current version you simply have to open our colab link and run all the cells.
+To setup and run our current version you simply have to open our colab [link](https://colab.research.google.com/drive/1RdAev0m0uGv2cMtb-ASv9GjOccsPohe0?usp=sharing) and run all the cells.
 
 Sidenote: Install gui with chess engines :)
 
