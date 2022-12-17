@@ -1,7 +1,7 @@
 # Miniproject-D7041E Chess Evaluation
 
 ## Intro
-Our goal was to create a neural network that could evaluate chess positions and predict which side is in the lead or if the game is even. Our training data and test data use predictions made by Stockfish(https://stockfishchess.org/) as the correct labels as it is and has been one of the highest-rated chess engines during the latest decade.
+Our goal was to create a neural network that could evaluate chess positions and predict which side is in the lead or if the game is even. Our training data and test data use predictions made by [Stockfish](https://stockfishchess.org/) as the correct labels as it is and has been one of the highest-rated chess engines during the latest decade.
 
 Typically chess engines use a set of algorithms to analyse a chess position. These algorithms consider a wide range of factors, for example, how each piece can move, which side has control of key squares and the safety of the king are some normal factors to consider. We wanted to try if it is possible to train a neural network to learn patterns these algorithms created by just watching different board states with the evaluation made by Stockfish used as the label.
 
@@ -18,7 +18,8 @@ To setup and run our current version you simply have to open our colab link and 
 Sidenote: Install gui with chess engines :)
 
 ## Dataset
-The dataset used is a collection of all games played on Lichess(Lichess.com) during July 2021. The dataset comes with the current position given in FEN format(https://www.chess.com/terms/fen-chess#how-does-fen-work) and evaluations made by Stockfish, these evaluations will be used as our labels/correct answers.
+The dataset used is a collection of all games played on [Lichess](https://lichess.org/) during July 2021. The dataset comes with the current position given in [FEN format](https://www.chess.com/terms/fen-chess#piece-placement) and evaluations made by Stockfish, these evaluations will be used as our labels/correct answers.
+
 
 ## Model
 Our model consists of the game state and trying to determine who is in the lead requires some factors. The evaluation score (eval) is a way to show who is in the lead. If the eval is positive then it means that white is in the lead and negative means black is in the lead. The first factor is simple, if you take a piece from the other player you increase your evaluation score. Depending on what piece you take it increases the score differently. A pawn is worth 1 point, a knight is 3 points etc.
