@@ -116,7 +116,7 @@ Second try:
 
 ## Evaluation
 
-Our neural network model yielded different results. Some scenarios gave predictions that were close to the eval value that Stockfish provides and some failed to give an accurate score. We had one issue with using the google colab feature which was that it timed out after a few hours. A model like this needs to run for multiple hours and even days to give an accurate prediction of multiple boards. Therefore, we had to lower the sample size to actually run the model and provide an example of the method.
+Our neural network model yielded different results. Some scenarios gave predictions that were close to the eval value that Stockfish provides and some failed to give an accurate score (such as game 3). We had one issue with using the google colab feature which was that it timed out after a few hours. A model like this needs to run for multiple hours and even days to give an accurate prediction of multiple boards. Therefore, we had to lower the sample size to actually run the model and provide an example of the method.
 
 Despite the low accuracy on some boards, our model performed well considering that 27164639 amount of boards are few in comparison to the amount of training a self-learning model needs to reach the same amount of accuracy. Another factor to consider is that our dataset is based on actual moves from lichess which means that the same moves (especially starting moves) will be repeated which means that the model trains on the same scenario multiple times. This is not a negative thing, it does mean that it will be better to predict more common boards rather than more unique boards.
 
