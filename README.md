@@ -110,7 +110,7 @@ Second try:
   Loss: 8.64
 ![Game 5](https://user-images.githubusercontent.com/60612941/208243211-bdb9b977-bbef-4857-9fee-aa11e6ebdf7a.png)
 
-
+When randomizing 1000 boards the average loss was `1.58`.
 
 
 
