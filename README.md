@@ -41,75 +41,73 @@ We create our model by representing the current FEN board as a bitboard which is
 --- Funny text
 
 ## Results
-* Game 1 *
-First try:
-
-  Stockfish evaluation: 1.92
+#### Game 1
+First try:  
+  Stockfish evaluation: 1.92  
+	Our prediction: -1.19  
+  Loss: 3.11  
   
-	Our prediction: -1.19
-  
-  Loss: 3.11
-  
-  
-Second try:
-
-  Stockfish evaluation: 1.92
-  
-	Our prediction: 0.6
-  
+Second try:  
+  Stockfish evaluation: 1.92  
+	Our prediction: 0.6  
   Loss: 1.32
   
 
 
 ![Game 1](https://user-images.githubusercontent.com/60612941/208242997-7008acd3-31b0-4938-bb96-9cd19958b7a2.png)
 
-* Game 2 *
-First try:
-  Stockfish evaluation: -4.12
-	Our prediction: -4.63
-  Loss: 0.51
-Second try:
-  Stockfish evaluation: -4.12
-	Our prediction: -4.58
+#### Game 2
+First try:  
+  Stockfish evaluation: -4.12  
+	Our prediction: -4.63  
+  Loss: 0.51  
+  
+Second try:  
+  Stockfish evaluation: -4.12  
+	Our prediction: -4.58  
   Loss: 0.46
 
 
 ![Game 2](https://user-images.githubusercontent.com/60612941/208243019-5c833534-fe85-4864-84b0-18c641bcf193.png)
 
-* Game 3 *
-First try:
-  Stockfish evaluation: 2.68
-	Our prediction: 0.04
-  Loss: 2.64
-Second try:
-  Stockfish evaluation: 2.68
-	Our prediction: 0.77
+#### Game 3
+First try:  
+  Stockfish evaluation: 2.68  
+	Our prediction: 0.04  
+  Loss: 2.64  
+  
+Second try:  
+  Stockfish evaluation: 2.68  
+	Our prediction: 0.77  
   Loss: 1.91
   
 ![Game 3](https://user-images.githubusercontent.com/60612941/208243173-eb5a593b-a629-4dc2-9ab5-561a23b236bd.png)
 
-* Game 4 *
-First try:
-  Stockfish evaluation: 6.72
-	Our prediction: 6.15
-  Loss: 0.57
-Second try:
-  Stockfish evaluation: 6.72
-	Our prediction: 6.02
+#### Game 4
+First try:  
+  Stockfish evaluation: 6.72  
+	Our prediction: 6.15  
+  Loss: 0.57  
+  
+Second try:  
+  Stockfish evaluation: 6.72  
+	Our prediction: 6.02  
   Loss: 0.7
    
 ![Game 4](https://user-images.githubusercontent.com/60612941/208243183-4b615707-a620-4670-939b-2bd3b8317b14.png)
 
 
-* Game 5 *
-First try:
-  Stockfish evaluation: 10.03
-	Our prediction: 9.55
-  Loss: 0.48
-Second try:
-  Stockfish evaluation: 10.03
-	Our prediction: 1.39
+#### Game 5
+First try:  
+  Stockfish evaluation: 10.03  
+	Our prediction: 9.55  
+  Loss: 0.48  
+  
+Second try:  
+  Stockfish evaluation: 10.03  
+	Our prediction: 1.39  
   Loss: 8.64
+  
 ![Game 5](https://user-images.githubusercontent.com/60612941/208243211-bdb9b977-bbef-4857-9fee-aa11e6ebdf7a.png)
 
 When randomizing 1000 boards the average loss was `1.58`.
