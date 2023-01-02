@@ -1,4 +1,4 @@
-# Miniproject-D7041E Chess Evaluation
+# Miniproject-D7041E Chess Evaluation Group 13
 
 ## [Youtube presentation](https://youtu.be/lfkH0D9B1iI)
 
@@ -19,7 +19,11 @@ To setup and run our current version you simply have to open our colab [link](ht
 
 The current setting is that the model uses 100000 boards to train. Our results are based on using 27164639 boards instead but this takes a few hours to compile. You can change the variable `LABEL_COUNT` to choose freely how many boards you want to analyze.
 
-Sidenote: Install gui with chess engines :)
+To setup Stockfish and LCZero:
+* Install a chess GUI, for example [Arena Chess](http://www.playwitharena.de/)
+* Download [Stockfish](https://stockfishchess.org/download/) and [LCZero](https://lczero.org/play/quickstart/) from their website
+* Add engines to the chess GUI
+
 
 ## Dataset
 The dataset used is a collection of all games played on [Lichess](https://lichess.org/) during July 2021. The dataset comes with the current position given in [FEN format](https://www.chess.com/terms/fen-chess#piece-placement) and evaluations made by Stockfish, these evaluations will be used as our labels/correct answers. The download file of the exact dataset we use can be found [here](https://storage.googleapis.com/chesspic/datasets/2021-07-31-lichess-evaluations-37MM.db.gz).
@@ -36,11 +40,11 @@ We create our model by representing the current FEN board as a bitboard which is
 
 ### Stockfish
 
---- Funny text
+Stockfish is one of the highest rated chess engines and has been for the past decade. It is based upon books of theory as well as learning by watching games being played. It features two different evaluation models, the traditional model that is based on handcrafted algorithms and terms and the newer model that uses a type of neural network.
 
-### Leela Chess Zero
+### Leela Chess Zero (LCZero)
 
---- Funny text
+LCZero is a newer engine that is based upon a deep neural network, it is trained by self-play which means it plays against itself to learn through reinforcement learning.
 
 ## Results
 #### Game 1
