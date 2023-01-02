@@ -20,7 +20,7 @@ The current setting is that the model uses 100000 boards to train. Our results a
 Sidenote: Install gui with chess engines :)
 
 ## Dataset
-The dataset used is a collection of all games played on [Lichess](https://lichess.org/) during July 2021. The dataset comes with the current position given in [FEN format](https://www.chess.com/terms/fen-chess#piece-placement) and evaluations made by Stockfish, these evaluations will be used as our labels/correct answers.
+The dataset used is a collection of all games played on [Lichess](https://lichess.org/) during July 2021. The dataset comes with the current position given in [FEN format](https://www.chess.com/terms/fen-chess#piece-placement) and evaluations made by Stockfish, these evaluations will be used as our labels/correct answers. The download file of the exact dataset we use can be found [here](https://storage.googleapis.com/chesspic/datasets/2021-07-31-lichess-evaluations-37MM.db.gz).
 
 
 ## Model
