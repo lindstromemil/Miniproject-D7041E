@@ -1,5 +1,7 @@
 # Miniproject-D7041E Chess Evaluation
 
+## [Youtube presentation](https://youtu.be/lfkH0D9B1iI)
+
 ## Intro
 Our goal was to create a neural network that could evaluate chess positions and predict which side is in the lead or if the game is even. Our training data and test data use predictions made by [Stockfish](https://stockfishchess.org/) as the correct labels as it is and has been one of the highest-rated chess engines during the latest decade.
 
@@ -120,7 +122,11 @@ Our neural network model yielded different results. Some scenarios gave predicti
 
 Despite the low accuracy on some boards, our model performed well considering that 27164639 amount of boards are few in comparison to the amount of training a self-learning model needs to reach the same amount of accuracy. Another factor to consider is that our dataset is based on actual moves from lichess which means that the same moves (especially starting moves) will be repeated which means that the model trains on the same scenario multiple times. This is not a negative thing, it does mean that it will be better to predict more common boards rather than more unique boards.
 
+## Contact
 
+Jesper Svensson [jessve-9@student.ltu.se](jessve-9@student.ltu.se)  
+Emil Lindström [emiilq-9@student.ltu.se](emiilq-9@student.ltu.se)  
+[Youtube presentation](https://youtu.be/lfkH0D9B1iI)
 
 
 
