@@ -9,7 +9,7 @@ There are two main ways a chess engine can learn how to play chess
 Playing itself over and over again
 Learning from watching played games
 
-The two classic examples of these two methods are AlphaZero and Stockfish. AlphaZero is thoroughly trained by playing itself over and over and learning from the matches through reinforcement learning. Stockfish on the other hand is mainly trained by human influences.
+The two classic examples of these two methods are LCZero and Stockfish. LCZero is thoroughly trained by playing itself over and over and learning from the matches through reinforcement learning. Stockfish on the other hand is mainly trained by human influences.
 
 
 ## Setup
